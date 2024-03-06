@@ -1,0 +1,2 @@
+MONGOURL=mongodb+srv://admin:123@cluster0.fjibaqe.mongodb.net/?retryWrites=true&w=majority
+key=thunder

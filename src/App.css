@@ -1,0 +1,36 @@
+/* #130D20 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+:root {
+  /* --card-bg: white; */
+}
+
+@font-face {
+  font-family: marionFont;
+  src: url(./assets/fonts/Marion.ttf);
+}
+
+body {
+  font-family: monospace;
+  /* background-color: white; */
+}
+
+.shadow-white {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+iframe {
+  display: none;
+}
+
+body .MuiDialog-container.MuiDialog-scrollPaper * {
+  color: white !important;
+}
+
+.marion-font {
+  font-family: marionFont;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(356deg)
+    brightness(107%) contrast(117%);
+}
